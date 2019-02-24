@@ -1,31 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-table, th, td {
-  border: 1px solid black;
-  padding: 5px;
-}
-table {
-  border-spacing: 15px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>special forces</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="icon" href="logo.png">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 </head>
 <body>
+    <a href="index.html"><img class="logo" src="logo.png"></a>
+    <img class="image" src="images/top_image.jpg">
+    <header>
+        <nav class="topmenu">
+                
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="list.html">List</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="index.html">Contacs</a></li>
+                
+            </ul>
 
-<h2>Border Spacing</h2>
-<p>Border spacing specifies the space between the cells.</p>
+        </nav>
+    </header>
+    
+    <article class="wrapper">
+     <div class="gallery">
+            <a href="gallery/Airborne.JPG" data-lightbox="gallery" data-title="Airborne"><img src="gallery/Airborne-small.jpg"></a>
+            <a href="gallery/gign.jpg" data-lightbox="gallery" data-title="gign"><img src="gallery/gign-small.jpg"></a>
+            <a href="gallery/gign1.jpg" data-lightbox="gallery" data-title="gign"><img src="gallery/gign1-small.jpg"></a>
+            <a href="gallery/sy.jpg" data-lightbox="gallery" data-title="sayeret matkal"><img src="gallery/sy-small.jpg"></a>
+            <a href="gallery/US.jpg" data-lightbox="gallery" data-title="US army"><img src="gallery/US-small.jpg"></a>
+      </div>
 
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
- 
-</table>
+           </article>
+    
+    
+   
+    <footer>
 
-<p>Try to change the border-spacing to 5px.</p>
 
+
+    </footer>
+    
 </body>
 </html>

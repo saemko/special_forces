@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-color: rgb(42,43,45);
+    width: 100%;
+}
+.logo {
+    position: absolute;
+    width: 100px;
+    margin: 20px;
+}
+.image{
+    max-width: 100%;
+    background-repeat: no-repeat;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 1000px;
+    margin: 0 auto;
+    
+
+}
+
+.topmenu ul li{
+    float: left;
+}
+.topmenu ul li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+.topmenu ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.6s;
+}
+
+.wrapper{
+    width: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    height: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.wrapper-text{
+    width: 900px;
+    margin: 0 auto;
+    font-size: 18px;
+    
+}
+.ulu {
+    list-style-type: none;
+}
+.ulu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+.ulu li a:hover{
+    text-decoration: underline;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+
+h2{
+    font-size: 22px;
+}
+
+footer{
+    
+    background-color: black;
+    width: 1000px;
+   margin: 0 auto;
+    height: 200px;
+}
+
+table, th{
+    text-align: left;
+}
+th{
+    width: 900px;
+}
+.gallery {
+   padding: 15px;
+}
+.gallery img{
+    padding: 0px 0px 20px 30px;
+    transition: 1s;
+    filter: grayscale(100%);
+}
+.gallery img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
